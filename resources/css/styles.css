@@ -1,0 +1,134 @@
+/* General styles */
+
+body {
+    background-color: white;
+}
+
+h1, h2, p, a {
+    font-family: "Playpen sans";
+    line-height: 150%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p, a {
+    font-size: 25px;
+}
+
+/* navbar */
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 37.5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 10;
+}
+
+/* titulo */
+
+#titulo {
+    margin-top: 37.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://picsum.photos/id/364/1280/?blur");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 95vh;
+}
+
+.titulo_bloque {
+    background-color: rgba(49, 50, 61, 0.822);
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+    color: whitesmoke;
+}
+
+/* mision */
+
+#mision {
+    scroll-margin-top: 37.5px;
+    padding: 20px 0 20px 0;
+}
+
+/* destinos */
+
+#destinos {
+    scroll-margin-top: 37.5px;
+    padding: 20px 0 20px 0;
+}
+
+.lugares {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.destino {
+    margin: 0 20px 0 20px;
+}
+
+/* empleados */
+
+#empleados {
+    scroll-margin-top: 37.5px;
+    padding: 20px 0 20px 0;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.people p {
+    max-width: 200px;
+}
+
+/* footer */
+
+footer {
+    scroll-margin-top: 37.5px;
+    padding: 20px 0 20px 0;
+}
+
+footer p, a {
+    font-size: 16px;
+}
+
+/* images to divide sections */
+
+.imagen {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+#primera {
+    background-image: url("https://picsum.photos/id/155/1280/");
+}
+
+#segunda {
+    background-image: url("https://picsum.photos/id/111/1280/");
+}
+
+#tercera {
+    background-image: url("https://picsum.photos/id/2/1280/");
+}
